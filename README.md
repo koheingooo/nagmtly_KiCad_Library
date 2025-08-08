@@ -1,0 +1,1 @@
+# nagmtly_KiCad_Library
