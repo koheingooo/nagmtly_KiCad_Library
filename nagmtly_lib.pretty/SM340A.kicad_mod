@@ -1,0 +1,231 @@
+(footprint "SM340A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DO-214AC-")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at -0.1365 -2.71 0)
+		(layer "F.SilkS")
+		(uuid "8a391e4b-dc3f-45b7-b014-e8c996a60061")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DIOM5127X229N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93fb36f2-f152-47f6-ab37-1f9ab12c9014")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5f9641a-c66a-4ad0-b188-dc07cfdbff04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acdabfd9-5e0d-41cb-b1d5-ff5dc3a1ad7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.31 -1.332)
+		(end -3.31 1.332)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d91a385a-a910-4e56-bf40-dc7b4f1119d7")
+	)
+	(fp_line
+		(start -2.825 -1.332)
+		(end -3.31 -1.332)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8746680b-29b6-4d61-86cc-5c46653dbab0")
+	)
+	(fp_line
+		(start -2.552 1.332)
+		(end -3.31 1.332)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55d477d6-35c2-42a8-9db6-b7ab45a0fc65")
+	)
+	(fp_line
+		(start -2.552 1.332)
+		(end 2.552 1.332)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8561b1fc-27e3-4100-bdf8-639fe022ce3b")
+	)
+	(fp_line
+		(start 2.552 -1.332)
+		(end -2.825 -1.332)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e737d9fb-30af-48b3-9c37-1301ba9acaf0")
+	)
+	(fp_line
+		(start -3.4 -1.645)
+		(end 3.4 -1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cf01d09-8522-4ea8-80e6-d2011b1a8060")
+	)
+	(fp_line
+		(start -3.4 1.645)
+		(end -3.4 -1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "035d05c7-964b-4058-8c8d-32d41a04d2bb")
+	)
+	(fp_line
+		(start 3.4 -1.645)
+		(end 3.4 1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f818e66-9b7f-4728-aa77-dd85877b2bbb")
+	)
+	(fp_line
+		(start 3.4 1.645)
+		(end -3.4 1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6901fe9a-5e31-41c9-84e2-c45afffa8f6b")
+	)
+	(fp_line
+		(start -2.552 -1.332)
+		(end 2.552 -1.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03737d6f-4dd1-4dc6-bbe5-2e098a7d5763")
+	)
+	(fp_line
+		(start -2.552 -0.558)
+		(end -1.778 -1.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55992efe-69cb-41b1-8693-a5f8be6f8839")
+	)
+	(fp_line
+		(start -2.552 1.332)
+		(end -2.552 -1.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a1e7912-0bc6-4185-95d3-99467dc9d50c")
+	)
+	(fp_line
+		(start 2.552 -1.332)
+		(end 2.552 1.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03b46861-8145-4523-8b06-f718407cd42d")
+	)
+	(fp_line
+		(start 2.552 1.332)
+		(end -2.552 1.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c08d40b-a243-4216-abc4-4c2416cd58b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ee9926fd-b8ba-4372-86f7-d232db00eb31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 0 90)
+		(size 1.55 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a537aee8-f4bf-4b20-a641-74c630b2cbf5")
+	)
+	(pad "2" smd rect
+		(at 2.05 0 90)
+		(size 1.55 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0ca1d649-67e7-49f3-944b-1f8ac8424a9c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/nagmtly_KiCad_Library/nagmtly_lib.3dmodels/SM340A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
