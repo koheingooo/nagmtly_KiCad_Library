@@ -5460,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "nagmtly_lib:LM1117GS-3.3"
 			(at 0 0 0)
 			(effects
 				(font
