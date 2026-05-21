@@ -355,4 +355,15 @@
 		(uuid "f4c5939d-c123-41a1-b7c1-140c5836082c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/nagmtly_KiCad_Library/nagmtly_lib.3dmodels/XC8111AA01MR-G.stp"
+		(offset
+			(xyz 0 -2.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
