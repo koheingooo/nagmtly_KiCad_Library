@@ -5785,9 +5785,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "nagmtly_KiCad_Library:XC8111"
+		(property "Footprint" "nagmtly_lib:XC8111"
 			(at 0 0 0)
 			(effects
 				(font

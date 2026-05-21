@@ -5787,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nagmtly_KiCad_Library:XC8111"
+		(property "Footprint" "nagmtly_lib:XC8111"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5816,8 +5816,8 @@
 		)
 		(symbol "XC8111_1_1"
 			(rectangle
-				(start -7.62 -2.54)
-				(end 7.62 -12.7)
+				(start -5.08 -2.54)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5827,7 +5827,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -5.08 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "V_{in}"
 					(effects
@@ -5845,7 +5845,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -8.89 0)
+				(at -7.62 -8.89 0)
 				(length 2.54)
 				(name "CE"
 					(effects
@@ -5881,7 +5881,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 -5.08 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "V_{out}"
 					(effects
@@ -5899,7 +5899,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -8.89 180)
+				(at 7.62 -8.89 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
