@@ -5779,13 +5779,12 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XC8111"
+			(at 0 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "nagmtly_lib:XC8111"
@@ -5817,8 +5816,8 @@
 		)
 		(symbol "XC8111_1_1"
 			(rectangle
-				(start -5.08 -2.54)
-				(end 5.08 -12.7)
+				(start -5.08 -3.81)
+				(end 5.08 -13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5828,7 +5827,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -5.08 0)
+				(at -7.62 -6.35 0)
 				(length 2.54)
 				(name "V_{in}"
 					(effects
@@ -5846,7 +5845,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -8.89 0)
+				(at -7.62 -10.16 0)
 				(length 2.54)
 				(name "CE"
 					(effects
@@ -5864,7 +5863,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -15.24 90)
+				(at 0 -16.51 90)
 				(length 2.54)
 				(name "V_{ss}"
 					(effects
@@ -5882,7 +5881,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 -5.08 180)
+				(at 7.62 -6.35 180)
 				(length 2.54)
 				(name "V_{out}"
 					(effects
@@ -5900,7 +5899,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -8.89 180)
+				(at 7.62 -10.16 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
